@@ -27,5 +27,9 @@ echo "[+] hesaplama araçları derlendi."
 gcc matris.c -o matris
 echo "[+] matris derlendi."
 
+# 7. ağ keşifcisi
+gcc ag_kesifcisi.c -o ağ
+echo "[+] ağ kesifcisi derlendi
+
 echo "------------------------------------------"
 echo "Tüm dosyalar hazır! Çalıştırmak için: ./dosya_adi"
