@@ -20,12 +20,26 @@ echo "[+] anti-malware derlendi."
 
 # 5. Hesaplama Araçları (C ve C++)
 gcc hesap.c -o hesap
-g++ hesap.cxx -o hesap-cpp
+
 echo "[+] hesaplama araçları derlendi."
 
 # 6. Matris İşlemleri
 gcc matris.c -o matris
 echo "[+] matris derlendi."
+
+# 7. ağ kesifçisi 
+gcc ag_kesifcisi.c -o kesifci
+
+# 8.dinamik bellek
+gcc bellek-v1.c -o v1
+
+# 9.farkli hesap makinesi 
+gcc kali.c -o kali
+
+# 10.pdf anti-virusu
+gcc anti-pdf.c -o pdf
+
+
 
 echo "------------------------------------------"
 echo "Tüm dosyalar hazır! Çalıştırmak için: ./dosya_adi"
